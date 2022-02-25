@@ -7,5 +7,4 @@ tip=int(tip)
 split= int(split)
 
 final= (total * (1+(tip/100)))/split
-final_round = "{:.2f}".format(final)
-print(f"Each person should pay: ${final_round}")
+print("Each person should pay: ${:.2f}".format(final))
